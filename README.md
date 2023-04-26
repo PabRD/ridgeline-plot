@@ -7,7 +7,7 @@ Reproduction of ridgeline plot seen in Bertron et al. (2022) with possibility of
 ![alt text](https://github.com/PabRD/ridgeline-plot/blob/main/gitHub_Exemple_RidgeLinePlot.png)
 
 
-Note: will/should be improved by adding the possibility of customizing placement, and traditional Name-Value Pair Arguments
+Note: will/should be improved by adding the possibility of customized placement, and traditional Name-Value Pair Arguments
 
 
 Bertron, Y., Bowen, M., Leo, P., Samozino, P., Hintzy, F., & Morel, B. (2022).
