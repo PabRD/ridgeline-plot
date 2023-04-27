@@ -1,7 +1,7 @@
 # ridgeline-plot
 Quick ridgeline plot on matlab.
 
-Reproduction of ridgeline plot seen in Bertron et al. (2022) with possibility of customizing color palette
+Reproduction of ridgeline plot seen in Bertron et al. (2022) with a fake dataset. Option to change the color palette
 
 
 ![alt text](https://github.com/PabRD/ridgeline-plot/blob/main/gitHub_Exemple_RidgeLinePlot.png)
