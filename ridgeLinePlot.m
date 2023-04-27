@@ -13,7 +13,7 @@ function ridgeLinePlot(data,colorMatrix)
 % @MatPab
 
 if nargin>1
-    colMat = colorMatrix;
+    colMat = colorMatrix(1:width(data),:);
 else
     colMat = parula(width(data));
 end
@@ -30,7 +30,7 @@ step = 1 - offset;
 horizontalPos = 0:step:width(data)*step-step;
 hold on
 % lets plot horizontal lines
-arrayfun(@(x) plot([0 1000],[x x],'k','LineWidth',.5),horizontalPos)
+arrayfun(@(x) plot([0.9*min(data,[],'all') 1.1*max(data,[],'all')],[x x],'k','LineWidth',.5),horizontalPos)
 
 
 % now, prepare data for distribution display
